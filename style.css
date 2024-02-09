@@ -1,0 +1,17 @@
+#btn1:hover{
+    background-color: red;
+}
+@keyframes animate{
+    from{
+        box-shadow: 15px 15px 10px lavender;
+    }
+    to{
+        box-shadow: 15px 15px 10px skyblue;
+    }
+}
+
+canvas{
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
